@@ -5972,10 +5972,10 @@
     <Library Include="Durango\4JLibs\libs\4J_Input_d.lib">
       <Filter>Durango\4JLibs\libs</Filter>
     </Library>
-    <Library Include="Windows64\4JLibs\libs\4J_Render_PC.lib">
+    <Library Include="Windows64\4JLibs\libs\4J_Render.lib">
       <Filter>Windows64\4JLibs\libs</Filter>
     </Library>
-    <Library Include="Windows64\4JLibs\libs\4J_Render_PC_d.lib">
+    <Library Include="Windows64\4JLibs\libs\4J_Render_d.lib">
       <Filter>Windows64\4JLibs\libs</Filter>
     </Library>
     <Library Include="Windows64\4JLibs\libs\4J_Input.lib">
