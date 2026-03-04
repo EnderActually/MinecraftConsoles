@@ -3,42 +3,26 @@ description: File a bug report.
 title: "[Bug]: "
 labels: ["bug"]
 type: bug
+
 body:
-  - type: input
-	id: bug-description
-	attributes:
-		label: Bug description
-		description: A clear and concise description of what the bug is.
-	validations:
-		required: true
-		
+  - type: textarea
+    id: bug-description
+    attributes:
+      label: Bug description
+      description: A clear and concise description of what the bug is.
+    validations:
+      required: true
 
+  - type: textarea
+    id: steps
+    attributes:
+      label: To Reproduce
+      description: Steps to reproduce the behavior
+      placeholder: |
+        1. Go to '...'
+        2. Click on '....'
+        3. Scroll down to '....'
+        4. See error
+    validations:
+      required: true
 
-**Describe the bug**
-A clear and concise description of what the bug is.
-
-**To Reproduce**
-Steps to reproduce the behavior:
-1. Go to '...'
-2. Click on '....'
-3. Scroll down to '....'
-4. See error
-
-**Expected behavior**
-A clear and concise description of what you expected to happen.
-
-**Screenshots**
-If applicable, add screenshots to help explain your problem.
-
-**Video**
-If applicable, PLEASE add videos to help explain your problem.
-
-**Details (please complete the following information):**
- - OS: [e.g. iOS]
- - Version [e.g. 22]
- - Build Type:
-   - [ ] Release
-   - [ ] Debug
-
-**Additional context**
-Add any other context about the problem here.
