@@ -51,8 +51,6 @@ body:
     validations:
       required: false
 
-    *Details*
-
   - type: input
     id: version
     attributes:
